@@ -8,10 +8,12 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/edwca/courseCypress.git
 git push -u origin main
-
+________________________________
+## Crear nueva rama para mis cambios
+git branch greg
 ________________________________________________
 ## Subir cambios a mi rama
-git branch greg
+git checkout greg
 git add .
 git commit -m "Detalle de commit"
 git push origin head

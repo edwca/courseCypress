@@ -13,11 +13,14 @@ describe('Uso de assert contains value', () => {
       cy.log('El largo de la tabla es :', largoTable)
     })
   })
-  it('Assert para validar el largo de una tabla (>th) con CSS', () => {
+  it.skip('Assert para validar el largo de una tabla (>thead >tr >th) con CSS', () => {
     cy.get('#example').should('be.visible')
     cy.get('#example >thead >tr').should('have.length', 1)
     cy.get('#example >thead >tr').should('have.length', 1)
     cy.get('#example >thead >tr >th').should('have.length', 6)
     cy.get('#example >thead >tr >th').should('have.length', 6).and('have.css', 'padding', '10px 18px')
+  })
+  it('Assert para validar contenido de la tabla (>tbody >tr >td) con CSS', () => {
+    cy.get('#example >tbody >tr >td').should('have.length', 60)
   })
 })
