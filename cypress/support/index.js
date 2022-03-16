@@ -19,6 +19,7 @@ import 'cypress-real-events/support'
 import 'cypress-file-upload'
 require('cypress-plugin-tab')
 require('cypress-xpath')
+require('@4tw/cypress-drag-drop')
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
