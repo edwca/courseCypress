@@ -1,0 +1,49 @@
+## video 18:
+
+1.- typeof name --> Me permite identificar el tipo de variable que utilizo;
+
+
+### Funciones
+
+En javascrip existen 3 tipos de funciones
+
+
+		- Funciones declaradas (Requieren identificador y son alzables)
+		- Funciones asociadas a una varible (Puede tener nombre o ser anonima)
+		- Funciones flecha (No disponen de contexto especifico this, constan de retorno implicito, deliminatores opcionales y no se alzan)
+
+### Metodos Arreglos
+
+		- push (Agregar elemento)
+		- pop  (Ubicar el ultimo elemento)
+		- lenght (Largo del arreglo de objetos)
+		- unshif (Agregar al principo de array elemento)
+		- shift (Eliminar el primero)
+		- indexOf (Encontrar elemento en una posición)
+		- splice  (Eliminar elemento de la posicion)
+		- slice P-1 ()
+
+### Condicionales
+
+		- if comparation
+
+		OPERADORES LÓGICOS Y RELACIONALES			DESCRIPCIÓN												EJEMPLO
+		==											Es igual												a == b
+		===											Es estrictamente igual									a === b
+		!=											Es distinto												a != b
+		!==											Es estrictamente distinto								a !== b
+		<, <=, >, >=								Menor, menor o igual, mayor, mayor o igual				a <=b
+		&&											Operador and (y)										a && b
+		||											Operador or (o)											a || b
+		!											Operador not (no)										!a
+### Bucles
+		- Switch
+		- for 
+		- foreach
+		- for in (valor el producto y valor del objeto)
+
+### try cach
+		- Permite controlar algun posible error en codigo importante
+
+### Promises
+		- Permiten ejecutar el codigo de manera sincronica es decir en fila 

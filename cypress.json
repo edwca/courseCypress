@@ -1,0 +1,14 @@
+{
+    "env":{
+        "DB":{
+            "user":"postgres",
+            "host":"localhost",
+            "database":"users",
+            "password":"root",
+            "port": 5432
+        }
+    },
+    "chromeWebSecurity":false
+}
+
+    

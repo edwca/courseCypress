@@ -1,0 +1,23 @@
+ ## Cypress Rules Desactivation
+    // "cypress/no-assigning-return-values": "error",
+    // "cypress/no-unnecessary-waiting": "error",
+    // "cypress/assertion-before-screenshot": "warn",
+    // "cypress/no-force": "warn",
+    // "cypress/no-async-tests": "error",
+    // "cypress/no-pause": "error"
+
+
+##	Details rules cypress
+✅	no-asignar-valores-devueltos	Impedir la asignación de valores de retorno de llamadas cy
+✅	sin esperas innecesarias	Evite esperar períodos de tiempo arbitrarios
+✅	pruebas no asíncronas	Impedir el uso de async/await en el caso de prueba de Cypress
+sin fuerza	No permitir el uso force: truecon comandos de acción
+aserción antes de la captura de pantalla	Asegúrese de que las capturas de pantalla estén precedidas por una afirmación
+selectores de datos requeridos	Solo permitir selectores de atributos data-* (require-data-selectors)
+sin pausa	No permitir cy.pause()comando principal
+
+
+## Chei Rules Desactivation:
+
+         "no-unused-expressions": 0,
+        "chai-friendly/no-unused-expressions": 2
