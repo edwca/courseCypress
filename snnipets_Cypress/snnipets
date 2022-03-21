@@ -1,0 +1,27 @@
+
+Snippet	Code
+dsb	describe
+ctx	context
+spy	specify
+it	it
+bf	before
+bfe	beforeEach
+af	after
+afe	afterEach
+⬆ Back to top
+
+Cypress Snippets
+Snippet	Code
+cyvt	cy.visit('');
+cygt	cy.get('');
+cyfd	cy.get('').find('');
+cyft	cy.get('').first('');
+cyte	cy.get('').type('');
+cycs	cy.contains('');
+cyck	cy.get('').click();
+cywt	cy.wait('');
+cylg	cy.log('');
+cype	cy.pause();
+cydg	cy.debug();
+cyst	cy.screenshot('');
+cyvp	cy.viewport();

@@ -7,7 +7,7 @@ describe('Manejo de fechas en calendario', () => {
     cy.visit('https://www.phptravels.net/')
     cy.title('eq', 'PHPTRAVELS - PHPTRAVELS')
   })
-  it('Selección de fecha en calendario ---> CheckIn Opcion con .each', () => {
+  it.only('Selección de fecha en calendario ---> CheckIn Opcion con .each', () => {
     cy.get('#checkin').click({ force: true })
     cy.xpath('//*[@id="fadein"]/div[3]/div[1]/table/tbody/tr[5]')
       .each(($el, index, array) => {
@@ -26,7 +26,6 @@ describe('Manejo de fechas en calendario', () => {
     const dayCheckout = 21
     const dayCheckin = 20
     cy.get('#checkin').click({ force: true }).then(() => {
-      cy.wait(4000)
       cy.xpath('//' + '*' + '[@id="fadein"]/div[3]/div[1]/table/tbody/tr[4]/td[@class="day  active"  and .="' + dayCheckin + '"]').click()
     }).then(() => {
       cy.get('#checkout').should('be.visible')
